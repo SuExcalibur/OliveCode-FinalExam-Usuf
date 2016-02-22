@@ -1,0 +1,10 @@
+body {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R', 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3', 'HGS明朝E', 'ＭＳ Ｐ明朝', 'MS PMincho', Georgia, Times, Baskerville, Palatino, serif;
+  background-image: url(../img/background.png);
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 100% auto;
+}
