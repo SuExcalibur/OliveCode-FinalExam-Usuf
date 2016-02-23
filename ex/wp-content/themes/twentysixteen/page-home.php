@@ -107,7 +107,7 @@
                 <div class="section-title">
                   <h2>
                   <!--section1 title-->
-                  <?php echo get_post()->post_title; ?></h2>
+                  <?php echo get_post(7)->post_title; ?></h2>
                 </div>
                 <div class="figCopy">
                   <!--section1 figCopy-->
@@ -115,7 +115,7 @@
                 </div>
                 <div class="section-text">
                   <!--section1 Text-->
-                  <?php echo get_post()->post_content; ?>
+                  <?php echo get_post(7)->post_content; ?>
                 </div>
                 <!--End of section-text -->
                 <div class="brushLine"></div>
@@ -145,7 +145,7 @@
                 <div class="section-title">
                   <h2>
               <!--section2 title-->
-              <?php echo get_post()->post_title; ?>
+              <?php echo get_post(9)->post_title; ?>
                   </h2>
                 </div>
                 <div class="figCopy">
@@ -154,7 +154,7 @@
                 </div>
                 <div class="section-text">
                   <!--section2 Text-->
-                  <?php echo get_post()->post_content ?>
+                  <?php echo get_post(9)->post_content ?>
                 </div>
                 <!-- End of section-text -->
                 <div class="brushLine"></div>
@@ -181,7 +181,7 @@
                 <div class="section-title">
                   <h2>
                   <!--section3 title-->
-              <?php echo get_post()->post_title; ?>
+              <?php echo get_post(11)->post_title; ?>
                   </h2>
                 </div>
                 <div class="figCopy">
@@ -190,7 +190,7 @@
                 </div>
                 <div class="section-text">
                   <!--section3 Text-->
-                  <?php echo get_post()->post_content; ?>
+                  <?php echo get_post(11)->post_content; ?>
                 </div>
                 <!-- End of section-text -->
                 <div class="brushLine"></div>
@@ -220,7 +220,7 @@
                 <div class="section-title">
                   <h2>
                   <!--section4 title-->
-              <?php echo get_post()->post_title; ?>
+              <?php echo get_post(13)->post_title; ?>
                   </h2>
                 </div>
                 <div class="figCopy">
@@ -229,7 +229,7 @@
                 </div>
                 <div class="section-text">
                   <!--section4 Text-->
-                  <?php echo get_post()->post_content; ?>
+                  <?php echo get_post(13)->post_content; ?>
                 </div>
                 <!-- End of section-text -->
                 <div class="brushLine"></div>
@@ -256,7 +256,7 @@
                 <div class="section-title">
                   <h2>
                   <!--section5 title-->
-                  <?php echo get_post(19)->post_title; ?></h2>
+                  <?php echo get_post(15)->post_title; ?></h2>
                 </div>
                 <!--section5 Date-->
                 <div class="figDate">2014年4月7日</div>
@@ -268,7 +268,7 @@
                   <?php 
               global $more; $more = FALSE;
 			         the_content('...');
-              echo get_post()->post_content; ?>
+              echo get_post(15)->post_content; ?>
                 </div>
                 <!-- End of section-text -->
                 <div class="nav">

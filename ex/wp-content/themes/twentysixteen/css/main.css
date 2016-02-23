@@ -233,6 +233,55 @@ section {
   color: white;
 }
 
+/*Section basic styles*/
+
+.figImg {
+  margin-bottom: 10px;
+}
+.section-title {
+  font-size: 167%;
+  line-height: 1.2em;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+.figCopy {
+  font-size: 123.1%;
+  line-height: 1.3em;
+  color: #FFF;
+  font-weight: bold;
+  margin-bottom: 74px;
+}
+.section-text {
+  font-size: 100%;
+  letter-spacing: 0.05em;
+  line-height: 1.8em;
+  text-align: justify;
+  margin: 0 0 20px 0;
+}
+.brushLine {
+  width: 100%;
+  height: 2px;
+  background-image: url(../img/tmp_brushline.png);
+  background-position: center;
+}
+.nav ul {
+  list-style: none;
+  margin: 20px 0 0 0;
+  width: 100%;
+}
+.nav ul li {
+  display: block;
+  background-image: url(../img/tmp_arrow-a.png);
+  background-repeat: no-repeat;
+  height: 18px;
+  float: left;
+  padding: 3px 0 0 25px;
+  margin: 0px 9px 10px 0;
+  font-weight: bold;
+  font-size: 108%;
+  letter-spacing: 0;
+}
+
 /*section specific styles*/
 
 .section-content {
