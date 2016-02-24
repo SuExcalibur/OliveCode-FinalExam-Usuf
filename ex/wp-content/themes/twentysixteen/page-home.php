@@ -75,7 +75,7 @@
           <!--News Contents-->
           <div id="news1" class="news">
             <div class="article">
-              <a href="javascript:content('fig05','')">
+              <a href="javascript:content('fig05','news1')">
                 <h4>お知らせ</h4>
                 <dl>
                   <dt>2014年6月25日</dt>
@@ -88,7 +88,7 @@
           <!--End of news1-->
           <div id="news2" class="news">
             <div class="article">
-              <a href="javascript:content('fig05','')">
+              <a href="javascript:content('fig05','news2')">
                 <h4>お知らせ</h4>
                 <dl>
                   <dt>2014年10月8日</dt>
@@ -121,12 +121,12 @@
                 <div class="brushLine"></div>
                 <nav class="nav">
                   <ul>
-                    <li><a href="javascript:content('fig01','')">カオハガン島の概要</a></li>
-                    <li><a href="javascript:content('fig01','')">島の沿革</a></li>
-                    <li><a href="javascript:content('fig01','')" class="cnt">カオハガン2050</a></li>
-                    <li><a href="javascript:content('fig01','')" class="cnt">NGO南の島から</a></li>
-                    <li><a href="javascript:content('fig01','')" class="cnt">熱帯珊瑚礁保護区</a></li>
-                    <li><a href="javascript:content('fig01','')" class="cnt">島主紹介</a></li>
+                    <li><a href="javascript:content('fig01','about')">カオハガン島の概要</a></li>
+                    <li><a href="javascript:content('fig01','history')">島の沿革</a></li>
+                    <li><a href="javascript:content('fig01','caohagan2050')" class="cnt">カオハガン2050</a></li>
+                    <li><a href="javascript:content('fig01','ngo')" class="cnt">NGO南の島から</a></li>
+                    <li><a href="javascript:content('fig01','sanctuary')" class="cnt">熱帯珊瑚礁保護区</a></li>
+                    <li><a href="javascript:content('fig01','islandmaster')" class="cnt">島主紹介</a></li>
                   </ul>
                 </nav>
               </div>
@@ -160,9 +160,9 @@
                 <div class="brushLine"></div>
                 <div class="nav">
                   <ul>
-                    <li><a href="javascript:content('fig02','')">島民のくらし</a></li>
-                    <li><a href="javascript:content('fig02','')">アクティビティ</a></li>
-                    <li><a href="javascript:content('fig02','')">カオハガンクラフト</a></li>
+                    <li><a href="javascript:content('fig02','islandlife')">島民のくらし</a></li>
+                    <li><a href="javascript:content('fig02','activity')">アクティビティ</a></li>
+                    <li><a href="javascript:content('fig02','craft')">カオハガンクラフト</a></li>
                   </ul>
                 </div>
               </div>
@@ -196,12 +196,12 @@
                 <div class="brushLine"></div>
                 <div class="nav">
                   <ul>
-                    <li><a href="javascript:content('fig03','')">カオハガン・ハウス</a></li>
-                    <li><a href="javascript:content('fig03','')">島までのアクセス</a></li>
-                    <li><a href="javascript:content('fig03','')">宿泊費用</a></li>
-                    <li><a href="javascript:content('fig03','')">宿泊予約</a></li>
-                    <li><a href="javascript:content('fig03','')">一日体験ツアー</a></li>
-                    <li><a href="javascript:content('fig03','')">Q&amp;A</a></li>
+                    <li><a href="javascript:content('fig03','caohaganhouse')">カオハガン・ハウス</a></li>
+                    <li><a href="javascript:content('fig03','access')">島までのアクセス</a></li>
+                    <li><a href="javascript:content('fig03','expenses')">宿泊費用</a></li>
+                    <li><a href="javascript:content('fig03','reservation')">宿泊予約</a></li>
+                    <li><a href="javascript:content('fig03','onedaytour')">一日体験ツアー</a></li>
+                    <li><a href="javascript:content('fig03','qanda')">Q&amp;A</a></li>
                   </ul>
                 </div>
               </div>
@@ -235,9 +235,9 @@
                 <div class="brushLine"></div>
                 <div class="nav">
                   <ul>
-                    <li><a href="javascript:content('fig04','')">カオハガンキルトについて</a></li>
-                    <li><a href="javascript:content('fig04','')">カオハガンキルトギャラリー</a></li>
-                    <li><a href="javascript:content('fig04','')">CaohaganQuilt+Garden</a></li>
+                    <li><a href="javascript:content('fig04','about4')">カオハガンキルトについて</a></li>
+                    <li><a href="javascript:content('fig04','gallery')">カオハガンキルトギャラリー</a></li>
+                    <li><a href="javascript:content('fig04','quiltgarden')">CaohaganQuilt+Garden</a></li>
                   </ul>
                 </div>
               </div>
@@ -273,7 +273,7 @@
                 <!-- End of section-text -->
                 <div class="nav">
                   <ul>
-                    <li><a href="javascript:content('fig05','')">続きを読む</a></li>
+                    <li><a href="javascript:content('fig05','news1')">続きを読む</a></li>
                   </ul>
                 </div>
               </div>
