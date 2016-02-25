@@ -6,7 +6,10 @@
   left: 0px;
   width: 100%;
   min-height: 100%;
-  background-color: #FFFFFF;
+  background-image: url(../img/cnt_bk.png);
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 100% auto;
   z-index: 1000;
   opacity: .95;
 }
@@ -107,6 +110,220 @@
   visibility: hidden;
 }
 
+/*fixing every page*/
+
+
+/* history */
+
+.history {
+  margin-bottom: 20px;
+  line-height: 1.5em;
+  letter-spacing: 0.2em;
+}
+.history dt {
+  font-weight: bold;
+  float: left;
+  width: 12em;
+  padding-bottom: 13px;
+  padding-top: 13px;
+}
+.history dd {
+  padding-bottom: 13px;
+  padding-top: 13px;
+  padding-left: 12em;
+  border-bottom: dotted 1px #555555;
+}
+.history dd:last-child {
+  border: none;
+}
+
+/* caohagan2050 */
+
+.pdfBt {
+  font-size: 108%;
+  letter-spacing: 0.2em;
+  line-height: 100%;
+  font-weight: bold;
+}
+.pdfBt img {
+  margin-bottom: -8px;
+}
+
+/* islandmaster */
+
+.islandMasterBookTi {
+  font-weight: bold;
+  font-size: 108%;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  border-bottom: dotted 1px #555555;
+}
+
+/* ngo */
+
+dl.listNgo {
+  margin-bottom: 5px;
+  line-height: 1.5em;
+  letter-spacing: 0.2em;
+}
+dl.listNgo dt {
+  float: left;
+  width: 1.5em;
+  padding-bottom: 5px;
+}
+dl.listNgo dd {
+  padding-bottom: 13px;
+  padding-left: 1.5em
+}
+
+/* 03 fig02
+-------------------------------------------------------------------*/
+
+
+/* activity */
+
+.activity {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* 04 fig03
+-------------------------------------------------------------------*/
+
+
+/* caohagan house */
+
+.caohaganHouse {
+  border: dotted 1px #555555;
+  width: 250px;
+  height: 100%;
+  margin-right: 13px;
+  margin-bottom: 20px;
+  float: left;
+}
+.caohaganHouse p {
+  padding: 0 5px 5px 5px;
+}
+#chgTop {
+  height: 400px;
+}
+#chgBottom {
+  height: 420px;
+}
+
+/* expenses */
+
+.expTable {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.expTable td {
+  border: 1px solid #888;
+  padding: 10px;
+  vertical-align: middle;
+  font-size: 93%;
+}
+
+/* Q&A */
+
+#qa p {
+  margin-bottom: 40px;
+}
+
+/* One day tour */
+
+#tourpanf {
+  margin-top: 50px;
+  font-size: 93%;
+  width: 450px;
+  margin-bottom: 300px;
+}
+#tourpanf .L {
+  float: left;
+  width: 200px;
+}
+#tourpanf .R {
+  float: right;
+  width: 200px;
+}
+
+/* 05 fig04
+-------------------------------------------------------------------*/
+
+
+/* about */
+
+#quiltProf {
+  padding-top: 20px;
+  margin-top: 50px;
+  border-top: dotted 1px #555555;
+}
+
+/* quiltgarden */
+
+#storeInfo {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: dotted 1px #555555;
+}
+
+/* gallery */
+
+.galleryItem {
+  width: 240px;
+  margin-right: 25px;
+  float: left;
+  height: 450px;
+  font-size: 85%;
+}
+
+/* 05 fig05
+-------------------------------------------------------------------*/
+
+
+/* COLUM */
+
+#columDate {
+  font-size: 100%;
+  margin-top: 50px;
+  margin-bottom: -95px;
+}
+#columBody {
+  font-size: 123.1%;
+}
+#columNav {
+  font-size: 104%;
+  text-align: center;
+  width: 800px;
+  height: 50px;
+  margin-top: 50px;
+}
+#columNav #L {
+  width: 390px;
+  float: left;
+  text-align: right;
+}
+#columNav #R {
+  width: 390px;
+  float: right;
+  text-align: left;
+}
+.columList {
+  font-size: 100%;
+}
+.columList li {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+.dc {
+  list-style-type: decimal;
+}
+.ita {
+  font-style: italic;
+}
+
 /*Basic Styles*/
 
 body {
@@ -195,6 +412,7 @@ a:active {
   box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 20px;
   position: absolute;
   background-color: rgb(255, 255, 255);
+  margin-left: -62.1257px;
 }
 .ri1 {
   width: 250px;

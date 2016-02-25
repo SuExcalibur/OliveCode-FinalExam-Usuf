@@ -37,37 +37,37 @@
 
         <div id="round-img-container">
           <div class="round-img ri1">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo1.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo1.jpg" style="height: 250px; width: 250px;">
           </div>
           <div class="round-img ri2">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo2.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo2.jpg" style="height: 170px; width: 170px;">
           </div>
           <div class="round-img ri3">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo3.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo3.jpg" style="height: 220px; width: 220px;">
           </div>
           <div class="round-img ri4">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo4.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo4.jpg" style="width: 190px; height: 190px;">
           </div>
           <div class="round-img ri5">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo5.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo5.jpg" style="width: 240px; height: 240px;">
           </div>
           <div class="round-img ri6">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo6.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo6.jpg" style="width: 230px; height: 230px;">
           </div>
           <div class="round-img ri7">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo7.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo7.jpg" style="width: 200px; height: 200px;">
           </div>
           <div class="round-img ri8">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo8.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo8.jpg" style="width: 220px; height: 220px;">
           </div>
           <div class="round-img ri9">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo9.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo9.jpg" style="width: 190px; height: 190px;">
           </div>
           <div class="round-img ri10">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo10.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo10.jpg" style="width: 300px; height: 300px;">
           </div>
           <div class="round-img ri11">
-            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo11.jpg">
+            <img src="<?php bloginfo('template_url'); ?>/img/bln_photo11.jpg" style="width: 200px; height: 200px;">
           </div>
         </div>
         <!-- End of round-img-container -->
