@@ -68,9 +68,6 @@
   line-height: 180%;
   text-align: justify;
 }
-#btmArticle > section > p > img {
-  max-width: 800px !important;
-}
 .img-left,
 .img-right {
   overflow: hidden;
@@ -971,6 +968,9 @@ footer {
   }
 }
 @media screen and (max-width: 540px) {
+  .clear p {
+    clear: both;
+  }
   html {
     background: red;
   }
@@ -1099,4 +1099,11 @@ footer {
   #section5 .idx-bkMid {
     height: 200px !important;
   }
+}
+
+/*responsive fix for popup pages*/
+
+.res-img {
+  max-width: 100% !important;
+  height: auto !important;
 }
