@@ -1,3 +1,7 @@
+:root {
+  min-width: 320px;
+}
+
 /*On click load*/
 
 #overlay {
@@ -18,13 +22,16 @@
 
 .content {
   position: relative;
-  height: 100%;
+  /*  height: 100%;*/
   overflow: hidden;
   max-width: 100%;
 }
 #closeBt {
   position: fixed;
   right: 2%;
+}
+#tiLine img {
+  max-width: 100%;
 }
 #btmWrap {
   overflow: auto;
@@ -123,7 +130,7 @@
 .history dt {
   font-weight: bold;
   float: left;
-  width: 12em;
+  max-width: 12em;
   padding-bottom: 13px;
   padding-top: 13px;
 }
@@ -197,7 +204,7 @@ dl.listNgo dd {
 
 .caohaganHouse {
   border: dotted 1px #555555;
-  width: 250px;
+  max-width: 250px;
   height: 100%;
   margin-right: 13px;
   margin-bottom: 20px;
@@ -237,16 +244,16 @@ dl.listNgo dd {
 #tourpanf {
   margin-top: 50px;
   font-size: 93%;
-  width: 450px;
+  max-width: 450px;
   margin-bottom: 300px;
 }
 #tourpanf .L {
   float: left;
-  width: 200px;
+  max-width: 200px;
 }
 #tourpanf .R {
   float: right;
-  width: 200px;
+  max-width: 200px;
 }
 
 /* 05 fig04
@@ -272,7 +279,7 @@ dl.listNgo dd {
 /* gallery */
 
 .galleryItem {
-  width: 240px;
+  max-width: 240px;
   margin-right: 25px;
   float: left;
   height: 450px;
@@ -296,17 +303,17 @@ dl.listNgo dd {
 #columNav {
   font-size: 104%;
   text-align: center;
-  width: 800px;
+  max-width: 800px;
   height: 50px;
   margin-top: 50px;
 }
 #columNav #L {
-  width: 390px;
+  max-width: 390px;
   float: left;
   text-align: right;
 }
 #columNav #R {
-  width: 390px;
+  max-width: 390px;
   float: right;
   text-align: left;
 }
@@ -528,32 +535,32 @@ section {
   z-index: 100;
 }
 #section1 {
-  width: 339px;
+  max-width: 339px;
   position: absolute;
   top: 570px;
   right: 6.11%;
 }
 #section2 {
-  width: 513px;
+  max-width: 513px;
   height: 581px;
   position: absolute;
   top: 1266px;
   left: 7%;
 }
 #section3 {
-  width: 396px;
+  max-width: 396px;
   position: absolute;
   top: 1900px;
   right: 2.6%;
 }
 #section4 {
-  width: 545px;
+  max-width: 545px;
   position: absolute;
   top: 2300px;
   left: 7.9%;
 }
 #section5 {
-  width: 395px;
+  max-width: 395px;
   position: absolute;
   top: 3000px;
   right: 10.1%;
@@ -638,10 +645,10 @@ section {
   line-height: 1.2em;
 }
 #section5 .nav ul li {
-  width: 300px;
+  max-width: 300px;
   color: #FFF;
   background-image: url(../img/idx_arrow_wb.png);
-  background-position: 38%;
+  background-position: 1%;
   display: block;
 }
 
@@ -661,6 +668,9 @@ section {
 }
 #section5 .idx-bkMid {
   background-image: url(../img/idx_cnt_fig05_bk_m.png);
+}
+.idx-bkMid {
+  background-repeat: repeat-y;
 }
 .idx-bkTop {
   line-height: 0;
@@ -899,6 +909,9 @@ footer {
   }
 }
 @media screen and (max-width: 768px) {
+  #wrapper {
+    height: auto;
+  }
   #news1 {
     top: 150px;
     right: auto;
@@ -908,30 +921,189 @@ footer {
     top: 150px;
     right: 5%;
   }
-  .ri1 {
-    width: 200px;
-    height: 200px;
-    top: 100px;
+  /*  Making the section right*/
+  #section-continer {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    text-align: center !important;
   }
-  #section1 {
-    top: 300px;
-    right: 23%;
-  }
-  #section2 {
-    left: 5%;
-  }
-  #section3 {
-    right: 13%;
-  }
-  #section4 {
-    left: 2%;
-  }
+  #section1,
+  #section2,
+  #section3,
+  #section4,
   #section5 {
-    right: 12%;
+    left: 0;
+    right: 0;
+    margin: 0 auto 30px;
   }
+  .section-content {}
+  .idx-bkTop img,
+  .idx-bkMid,
+  .idx-bkBtm img {
+    width: 100%;
+  }
+  .history dd {
+    padding-left: 30%;
+  }
+  /*
+  .idx-bkTop,
+.idx-bkMid,
+.idx-bkBtm,
+*/
   #round-img-container,
   .bgimg2,
-  .bgimg3 {
+  .bgimg3,
+  #bird2 {
     display: none;
   }
+  .foot-content {
+    width: 100%;
+  }
+  #logo,
+  #copyright {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 540px) {
+  .clear p {
+    clear: both;
+  }
+  html {
+    background: red;
+  }
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5 {}
+  #section1 {}
+  #section2 {
+    top: 1430px;
+  }
+  #section2 .idx-bkMid {
+    height: 160px !important;
+  }
+  /*
+  .figCopy {
+    margin-bottom: 35px;
+  }
+  .section-title {
+    margin-bottom: 15px;
+  }
+*/
+  /*
+  #section2 .idx-bkMid {
+   height: 200px;
+ }
+ #section2 .idx-bkBtm {}
+*/
+  #section3 {
+    top: 2250px;
+  }
+  #section4 {
+    top: 2900px;
+  }
+  #section5 {
+    top: 3650px;
+  }
+  #section5 .section-content {
+    text-align: center;
+    max-width: 95%;
+  }
+  footer {
+    position: static;
+    bottom: 0;
+  }
+  #bird1 {
+    display: none;
+  }
+  #logo,
+  #copyright {
+    max-width: 100%;
+  }
+  #section4 .idx-bkMid {
+    height: 220px !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  #section2 .idx-bkMid {
+    height: 220px !important;
+  }
+  #section3 {
+    top: 2300px;
+  }
+  #section4 {
+    top: 3000px;
+  }
+  #section4 .idx-bkMid {
+    height: 260px !important;
+  }
+  #section5 {
+    top: 3800px;
+  }
+  iframe {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 420px) {
+  #section2 .idx-bkMid {
+    height: 280px !important;
+  }
+  #section4 .idx-bkMid {
+    height: 300px !important;
+  }
+  #section5 {}
+}
+@media screen and (max-width: 380px) {
+  .figCopy {
+    margin-bottom: 40px;
+  }
+  #section2 .idx-bkMid {
+    height: 350px !important;
+  }
+  #section3 {
+    top: 2350px;
+  }
+  #section3 .idx-bkMid {
+    height: 240px !important;
+  }
+  #section4 {
+    top: 3100px;
+  }
+  #section4 .idx-bkMid {
+    height: 340px !important;
+  }
+  #section5 {
+    top: 3950px;
+  }
+  #section5 .idx-bkMid {
+    height: 140px !important;
+  }
+  #tree {
+    display: none;
+  }
+}
+@media screen and (max-width: 350px) {
+  #section3 .idx-bkMid {
+    height: 300px !important;
+  }
+  #section4 .idx-bkMid {
+    height: 340px !important;
+  }
+  #section5 {
+    top: 3980px;
+  }
+  #section5 .idx-bkMid {
+    height: 200px !important;
+  }
+}
+
+/*responsive fix for popup pages*/
+
+.res-img {
+  max-width: 100% !important;
+  height: auto !important;
 }
