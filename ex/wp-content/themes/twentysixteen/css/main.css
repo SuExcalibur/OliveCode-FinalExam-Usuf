@@ -1,3 +1,7 @@
+:root {
+  min-width: 320px;
+}
+
 /*On click load*/
 
 #overlay {
@@ -18,13 +22,16 @@
 
 .content {
   position: relative;
-  height: 100%;
+  /*  height: 100%;*/
   overflow: hidden;
   max-width: 100%;
 }
 #closeBt {
   position: fixed;
   right: 2%;
+}
+#tiLine img {
+  max-width: 100%;
 }
 #btmWrap {
   overflow: auto;
@@ -60,6 +67,9 @@
   letter-spacing: 0.05em;
   line-height: 180%;
   text-align: justify;
+}
+#btmArticle > section > p > img {
+  max-width: 800px !important;
 }
 .img-left,
 .img-right {
@@ -123,7 +133,7 @@
 .history dt {
   font-weight: bold;
   float: left;
-  width: 12em;
+  max-width: 12em;
   padding-bottom: 13px;
   padding-top: 13px;
 }
@@ -197,7 +207,7 @@ dl.listNgo dd {
 
 .caohaganHouse {
   border: dotted 1px #555555;
-  width: 250px;
+  max-width: 250px;
   height: 100%;
   margin-right: 13px;
   margin-bottom: 20px;
@@ -237,16 +247,16 @@ dl.listNgo dd {
 #tourpanf {
   margin-top: 50px;
   font-size: 93%;
-  width: 450px;
+  max-width: 450px;
   margin-bottom: 300px;
 }
 #tourpanf .L {
   float: left;
-  width: 200px;
+  max-width: 200px;
 }
 #tourpanf .R {
   float: right;
-  width: 200px;
+  max-width: 200px;
 }
 
 /* 05 fig04
@@ -272,7 +282,7 @@ dl.listNgo dd {
 /* gallery */
 
 .galleryItem {
-  width: 240px;
+  max-width: 240px;
   margin-right: 25px;
   float: left;
   height: 450px;
@@ -296,17 +306,17 @@ dl.listNgo dd {
 #columNav {
   font-size: 104%;
   text-align: center;
-  width: 800px;
+  max-width: 800px;
   height: 50px;
   margin-top: 50px;
 }
 #columNav #L {
-  width: 390px;
+  max-width: 390px;
   float: left;
   text-align: right;
 }
 #columNav #R {
-  width: 390px;
+  max-width: 390px;
   float: right;
   text-align: left;
 }
@@ -638,10 +648,10 @@ section {
   line-height: 1.2em;
 }
 #section5 .nav ul li {
-  width: 300px;
+  max-width: 300px;
   color: #FFF;
   background-image: url(../img/idx_arrow_wb.png);
-  background-position: 38%;
+  background-position: 1%;
   display: block;
 }
 
@@ -661,6 +671,9 @@ section {
 }
 #section5 .idx-bkMid {
   background-image: url(../img/idx_cnt_fig05_bk_m.png);
+}
+.idx-bkMid {
+  background-repeat: repeat-y;
 }
 .idx-bkTop {
   line-height: 0;
@@ -914,7 +927,6 @@ footer {
   /*  Making the section right*/
   #section-continer {
     width: 100%;
-    background: pink;
     position: absolute;
     top: 10px;
     text-align: center !important;
@@ -933,6 +945,9 @@ footer {
   .idx-bkMid,
   .idx-bkBtm img {
     width: 100%;
+  }
+  .history dd {
+    padding-left: 30%;
   }
   /*
   .idx-bkTop,
@@ -966,7 +981,10 @@ footer {
   #section5 {}
   #section1 {}
   #section2 {
-    top: 1400px;
+    top: 1430px;
+  }
+  #section2 .idx-bkMid {
+    height: 160px !important;
   }
   /*
   .figCopy {
@@ -986,12 +1004,10 @@ footer {
     top: 2250px;
   }
   #section4 {
-    background: red;
     top: 2900px;
-    height: 800px !important;
   }
   #section5 {
-    top: 3700px;
+    top: 3650px;
   }
   #section5 .section-content {
     text-align: center;
@@ -1007,5 +1023,80 @@ footer {
   #logo,
   #copyright {
     max-width: 100%;
+  }
+  #section4 .idx-bkMid {
+    height: 220px !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  #section2 .idx-bkMid {
+    height: 220px !important;
+  }
+  #section3 {
+    top: 2300px;
+  }
+  #section4 {
+    top: 3000px;
+  }
+  #section4 .idx-bkMid {
+    height: 260px !important;
+  }
+  #section5 {
+    top: 3800px;
+  }
+  iframe {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 420px) {
+  #section2 .idx-bkMid {
+    height: 280px !important;
+  }
+  #section4 .idx-bkMid {
+    height: 300px !important;
+  }
+  #section5 {}
+}
+@media screen and (max-width: 380px) {
+  .figCopy {
+    margin-bottom: 40px;
+  }
+  #section2 .idx-bkMid {
+    height: 350px !important;
+  }
+  #section3 {
+    top: 2350px;
+  }
+  #section3 .idx-bkMid {
+    height: 240px !important;
+  }
+  #section4 {
+    top: 3100px;
+  }
+  #section4 .idx-bkMid {
+    height: 340px !important;
+  }
+  #section5 {
+    top: 3950px;
+  }
+  #section5 .idx-bkMid {
+    height: 140px !important;
+  }
+  #tree {
+    display: none;
+  }
+}
+@media screen and (max-width: 350px) {
+  #section3 .idx-bkMid {
+    height: 300px !important;
+  }
+  #section4 .idx-bkMid {
+    height: 340px !important;
+  }
+  #section5 {
+    top: 3980px;
+  }
+  #section5 .idx-bkMid {
+    height: 200px !important;
   }
 }
