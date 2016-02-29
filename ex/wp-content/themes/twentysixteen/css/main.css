@@ -528,32 +528,32 @@ section {
   z-index: 100;
 }
 #section1 {
-  width: 339px;
+  max-width: 339px;
   position: absolute;
   top: 570px;
   right: 6.11%;
 }
 #section2 {
-  width: 513px;
+  max-width: 513px;
   height: 581px;
   position: absolute;
   top: 1266px;
   left: 7%;
 }
 #section3 {
-  width: 396px;
+  max-width: 396px;
   position: absolute;
   top: 1900px;
   right: 2.6%;
 }
 #section4 {
-  width: 545px;
+  max-width: 545px;
   position: absolute;
   top: 2300px;
   left: 7.9%;
 }
 #section5 {
-  width: 395px;
+  max-width: 395px;
   position: absolute;
   top: 3000px;
   right: 10.1%;
@@ -899,6 +899,9 @@ footer {
   }
 }
 @media screen and (max-width: 768px) {
+  #wrapper {
+    height: auto;
+  }
   #news1 {
     top: 150px;
     right: auto;
@@ -908,30 +911,101 @@ footer {
     top: 150px;
     right: 5%;
   }
-  .ri1 {
-    width: 200px;
-    height: 200px;
-    top: 100px;
+  /*  Making the section right*/
+  #section-continer {
+    width: 100%;
+    background: pink;
+    position: absolute;
+    top: 10px;
+    text-align: center !important;
   }
-  #section1 {
-    top: 300px;
-    right: 23%;
-  }
-  #section2 {
-    left: 5%;
-  }
-  #section3 {
-    right: 13%;
-  }
-  #section4 {
-    left: 2%;
-  }
+  #section1,
+  #section2,
+  #section3,
+  #section4,
   #section5 {
-    right: 12%;
+    left: 0;
+    right: 0;
+    margin: 0 auto 30px;
   }
+  .section-content {}
+  .idx-bkTop img,
+  .idx-bkMid,
+  .idx-bkBtm img {
+    width: 100%;
+  }
+  /*
+  .idx-bkTop,
+.idx-bkMid,
+.idx-bkBtm,
+*/
   #round-img-container,
   .bgimg2,
-  .bgimg3 {
+  .bgimg3,
+  #bird2 {
     display: none;
+  }
+  .foot-content {
+    width: 100%;
+  }
+  #logo,
+  #copyright {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 540px) {
+  html {
+    background: red;
+  }
+  #section1,
+  #section2,
+  #section3,
+  #section4,
+  #section5 {}
+  #section1 {}
+  #section2 {
+    top: 1400px;
+  }
+  /*
+  .figCopy {
+    margin-bottom: 35px;
+  }
+  .section-title {
+    margin-bottom: 15px;
+  }
+*/
+  /*
+  #section2 .idx-bkMid {
+   height: 200px;
+ }
+ #section2 .idx-bkBtm {}
+*/
+  #section3 {
+    top: 2250px;
+  }
+  #section4 {
+    background: red;
+    top: 2900px;
+    height: 800px !important;
+  }
+  #section5 {
+    top: 3700px;
+  }
+  #section5 .section-content {
+    text-align: center;
+    max-width: 95%;
+  }
+  footer {
+    position: static;
+    bottom: 0;
+  }
+  #bird1 {
+    display: none;
+  }
+  #logo,
+  #copyright {
+    max-width: 100%;
   }
 }
